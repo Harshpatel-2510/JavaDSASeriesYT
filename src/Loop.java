@@ -156,18 +156,26 @@ public class Loop {
 
 //        HW-7===>print the sum of all the number from 1 to n
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Give any ONE number:- ");
-        int num = sc.nextInt();
-
-        int count = 0;
-        for (int i = 1; i <= num; i++) {
-            count = count + i;
-        }
-        System.out.println("Your final Sum of all number is "+count);
+//        Scanner sc = new Scanner(System.in);
+//        System.out.print("Give any ONE number:- ");
+//        int num = sc.nextInt();
+//
+//        int count = 0;
+//        for (int i = 1; i <= num; i++) {
+//            count = count + i;
+//        }
+//        System.out.println("Your final Sum of all number is "+count);
 
 
 //        HW-8===>print all integers in range from 50 to 100, that are perfectly divisible by 7.
+
+        int a = 50;
+        while (a<=100){
+            if (a%7 == 0) {
+                System.out.println(a);
+            }
+            a++;
+        }
 
 
 
